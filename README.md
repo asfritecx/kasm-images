@@ -5,7 +5,6 @@ Reference is taken from kasm's main github repository:[here](https://github.com/
 
 
 ## kasmweb-debianbullsyes
----
 Added obsidian deb package for note taking 
 
 Issues To Fix:
