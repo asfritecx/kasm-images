@@ -5,11 +5,5 @@ Reference is taken from kasm's main github repository:[here](https://github.com/
 
 
 ## kasmweb-debianbullsyes
-Added obsidian deb package for note taking 
-
-Issues To Fix:
-- Launcher Issues For obsidian 
-- Add Shortcut to desktop
-
-Optimizations To Do:
-- Use script to download the deb package 
+- Added obsidian deb package for note taking
+- Removed Chrome/Chromium
