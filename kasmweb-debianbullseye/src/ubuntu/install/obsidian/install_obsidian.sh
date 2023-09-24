@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ex
 
-wget -q https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.5/obsidian_1.4.5_amd64.deb -O obsidian.deb
+wget -q https://github.com/obsidianmd/obsidian-releases/releases/download/v1.4.13/obsidian_1.4.13_amd64.deb -O obsidian.deb
 apt install -y ./obsidian.deb
 sed -i 's#/opt/Obsidian/obsidian#/opt/Obsidian/obsidian --no-sandbox##' /usr/share/applications/obsidian.desktop
 cp /usr/share/applications/obsidian.desktop $HOME/Desktop
